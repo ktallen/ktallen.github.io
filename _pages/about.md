@@ -8,9 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi!
-
-My name is **Keita Allen**, and I am a junior at MIT studying math. 
+Hi! My name is **Keita Allen**, and I am a junior at MIT studying math. 
 
 At the moment, I am particularly interested in **the areas where algebra and geometry/topology intersect.**
 
