@@ -9,8 +9,8 @@ main:
   - title: "Research"
     url: /research/
     
-  - title: "About"
-    url: /about/
+  - title: "About Me"
+    url: /aboutme/
     
   - title: "Blog Posts"
     url: /year-archive/
