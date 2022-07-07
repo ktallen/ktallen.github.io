@@ -1,11 +1,10 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Teaching."
 subtitle: "Worksheets, notes and other resources."
 permalink: /teaching/
 author_profile: true
 ---
-<!-- ## Worksheets, notes and other resources. -->
 
 I am passionate about math education, particularly for the underserved. I am involved with the MIT Office of Minority Education through:
 
