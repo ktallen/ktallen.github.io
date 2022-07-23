@@ -1,5 +1,5 @@
 ---
-title: "Complexity of computing stable homotopy groups of spheres."
+title: "Complexity of computing homotopy groups of spheres."
 collection: projects
 type: "Summer research"
 permalink: /projects/uropplus
@@ -15,4 +15,4 @@ I gave an explicit upper bound on the complexity of the algorithm when all homot
 You can find a preliminary draft [on the math department's website](https://math.mit.edu/research/undergraduate/urop-plus/documents/2021/Allen.pdf).
 
 ### Errata
-I don't think that my bound on the process involving the infinite group $$\pi_n(S^n) \simeq \mathbb{Z}$$ is correct; this likely does not have an effect on the asymptotic complexity, but I will revise when I get a chance. 
+I don't think that my bound on the process involving the infinite group $$\pi_n(S^n) \simeq \mathbb{Z}$$ is quite correct; this likely does not have an effect on the asymptotic complexity, but I will revise when I get a chance. 
