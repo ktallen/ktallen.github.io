@@ -2,7 +2,7 @@
 title: "Computing the homology of the motivic lambda algebra."
 collection: projects
 type: "Summer research"
-permalink: /projects/chroma2022
+permalink: /projects/uchicago2022
 venue: "University of Chicago - Math REU and Leadership Alliance SR-EIP"
 date: 2022-08-09
 location: "Chicago, IL"
