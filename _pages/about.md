@@ -10,6 +10,8 @@ redirect_from:
 
 My name is **Keita Allen**, and I am a senior at MIT studying math. 
 
+Beginning in fall 2023, I will be continuing my studies at MIT as a Ph.D. student in mathematics.
+
 At the moment, I am broadly interested in **areas where algebra and geometry/topology intersect.**
 
 Please see:

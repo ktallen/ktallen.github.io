@@ -6,7 +6,7 @@ excerpt: "Some math I've thought about."
 author_profile: true
 ---
 
-I am broadly interested in thinking about **geometrically-flavored problems in algebra**. At the moment, I am most interested in **algebraic topology/homotopy theory**, and have been lucky enough to have some opportunities to explore the field outside of class.
+I am very broadly interested in thinking about **topics between algebra, geometry and topology**. At the moment, I have been interested in **algebraic topology/homotopy theory** and **algebraic geometry**, and have been lucky enough to have some opportunities to explore the fields outside of class.
 
 ---
 
