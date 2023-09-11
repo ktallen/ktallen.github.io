@@ -8,11 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-My name is **Keita Allen**, and I am a senior at MIT studying math. 
+My name is **Keita Allen**, and I am a first-year Ph.D. student in mathematics at MIT. 
 
-Beginning in fall 2023, I will be continuing my studies at MIT as a Ph.D. student in mathematics.
-
-At the moment, I am broadly interested in **areas where algebra and geometry/topology intersect.**
+I am broadly interested in **areas where algebra and geometry/topology intersect,** with a particular interest in and around algebraic topology/homotopy theory. 
 
 Please see:
 - the [**Math**](https://ktallen.github.io/projects/) and [**Teaching**](https://ktallen.github.io/teaching/) tabs to see some of the things I have been involved in at MIT,

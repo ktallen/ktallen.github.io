@@ -8,4 +8,4 @@ author_profile: true
 #   - /about.html
 ---
 
-Please find here copies of my most up-to-date [CV](https://ktallen.github.io/files/cv.pdf), in addition to a [list of coursework](https://ktallen.github.io/files/coursework.pdf).
+Please find here copies of my most up-to-date [CV](https://ktallen.github.io/files/cv.pdf), in addition to a [list of coursework](https://ktallen.github.io/files/coursework.pdf) I took as an undergraduate.
