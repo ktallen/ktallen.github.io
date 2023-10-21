@@ -1,6 +1,6 @@
 ---
 title: "Complexity of computing homotopy groups of spheres."
-collection: projects
+collection: undergradprojects
 type: "Summer research"
 permalink: /projects/uropplus
 venue: "MIT Math Dept."

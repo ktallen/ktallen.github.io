@@ -1,13 +1,13 @@
 # main links links
 main:  
-  - title: "Math"
-    url: /projects/
+  - title: "Research"
+    url: /research/
+
+  - title: "Notes/Talks"
+    url: /notes/
 
   - title: "Teaching"
     url: /teaching/ 
-  
-  - title: "CV"
-    url: /cv/
 
   - title: "Contact, etc."
     url: /info/

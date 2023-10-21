@@ -190,6 +190,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  undergradprojects:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -250,6 +253,14 @@ defaults:
   - scope:
       path: ""
       type: projects
+    values:
+      layout: single
+      author_profile: true
+      comments: true
+  # _undergradprojects
+  - scope:
+      path: ""
+      type: undergradprojects
     values:
       layout: single
       author_profile: true

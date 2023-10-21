@@ -8,13 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-My name is **Keita Allen**, and I am a first-year Ph.D. student in mathematics at MIT. 
+My name is **Keita Allen**, and I am a first-year Ph.D. student in mathematics at MIT. Previously, I was an undergraduate at MIT.
 
 I am broadly interested in **areas where algebra and geometry/topology intersect,** with a particular interest in and around algebraic topology/homotopy theory. 
 
-Please see:
-- the [**Math**](https://ktallen.github.io/projects/) and [**Teaching**](https://ktallen.github.io/teaching/) tabs to see some of the things I have been involved in at MIT,
-- the [**CV**](https://ktallen.github.io/cv/) tab for a CV and list of coursework, and
-- the [**Contact, etc.**](https://ktallen.github.io/info/) tab for some information on myself, including how to reach me; my inbox is always open : )
+Here is my [**CV**](https://ktallen.github.io/files/cv.pdf). For some more information, please see:
 
-My hope is that this site can provide you with some information on myself, and illustrate my journey through MIT. Enjoy!
+- the [**Research**](https://ktallen.github.io/projects/) tab for some of the math I have thought about,
+- the [**Notes/Talks**](https://ktallen.github.io/notes/) tab for some more expository writing,
+- the [**Teaching**](https://ktallen.github.io/teaching/) tab for some teaching material I have made,
+- and the [**Contact, etc.**](https://ktallen.github.io/info/) tab for some information on myself, including how to reach me; my inbox is always open : )
+
+My hope is that this site can provide you with some information on myself. Enjoy!
