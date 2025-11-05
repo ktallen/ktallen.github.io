@@ -6,11 +6,11 @@ main:
   - title: "Notes/Talks"
     url: /notes/
 
-  - title: "Teaching"
+  - title: "Teaching/Outreach"
     url: /teaching/ 
 
-  - title: "Contact, etc."
-    url: /info/
+  # - title: "Contact, etc."
+  #   url: /info/
     
   # - title: "Blog Posts"
   #   url: /year-archive/

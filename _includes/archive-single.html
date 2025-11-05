@@ -38,8 +38,48 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-        {% if post.collection == 'teaching' or post.collection == 'projects' or post.collection == 'undergradprojects' or post.collection == 'talks' %}
+        {% if post.collection == 'teaching' or post.collection == 'talks' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif post.collection == 'undergradprojects' or post.collection == 'projects' %}
+          {% assign string = "" %}
+          {% if post.collaborators %}
+          <!-- initialize arrays containing names and site links of collaborators -->
+            {% assign names = post.collaborators | split: ", " %}
+            {% assign links = post.collaboratorlinks | split: ", " %}
+            <!-- add first collaborators name and link to string -->
+            {%- capture string -%}
+              With <a href="{{ links[0] }}">{{ names[0] }}</a>
+            {%- endcapture -%}
+            {% assign ninzuu = names.size %}
+            <!-- if we have 3 are more collaborators, starting adding names with commas -->
+            {% if ninzuu > 2 %}
+              {% assign lastone = names.size | minus: 2 %}
+                {% for i in (1..lastone) %}
+                  {%- capture string -%}
+                    {{ string }}, <a href="{{ links[i] }}">{{ names[i] }}</a>
+                  {%- endcapture -%}
+                {% endfor %}
+            {% endif %}
+            <!-- if we have 2 or more collaborators, add last name with and -->
+            {% if ninzuu > 1 %}
+              {%- capture string -%}
+                {{ string }} and <a href="{{ links[-1] }}">{{ names[-1] }}</a>
+              {%- endcapture -%}
+            {% endif %}
+            <!-- add period -->
+            {%- capture string -%}
+              {{ string | append: "."}}
+            {%- endcapture -%}
+          {% endif %}
+
+          {% if post.journalinfo %}
+            {% assign journal = post.journalinfo %}
+          {% else %}
+            {% assign journal = "" %}
+          {% endif %}
+            
+          <p>{{ string }} Draft available <a href="{{ post.draftlink }}">here</a>. {{ journal }}</p>
+
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}

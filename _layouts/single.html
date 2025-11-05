@@ -34,8 +34,48 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
-        {% if page.collection == 'teaching' or page.collection == 'projects' or page.collection == 'undergradprojects'%}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% if page.collection == 'projects' or page.collection == 'undergradprojects' %}
+          {% assign string = "" %}
+          {% if page.collaborators %}
+          <!-- initialize arrays containing names and site links of collaborators -->
+            {% assign names = page.collaborators | split: ", " %}
+            {% assign links = page.collaboratorlinks | split: ", " %}
+            <!-- add first collaborators name and link to string -->
+            {%- capture string -%}
+              With <a href="{{ links[0] }}">{{ names[0] }}</a>
+            {%- endcapture -%}
+            {% assign ninzuu = names.size %}
+            <!-- if we have 3 are more collaborators, starting adding names with commas -->
+            {% if ninzuu > 2 %}
+              {% assign lastone = names.size | minus: 2 %}
+                {% for i in (1..lastone) %}
+                  {%- capture string -%}
+                    {{ string }}, <a href="{{ links[i] }}">{{ names[i] }}</a>
+                  {%- endcapture -%}
+                {% endfor %}
+            {% endif %}
+            <!-- if we have 2 or more collaborators, add last name with and -->
+            {% if ninzuu > 1 %}
+              {%- capture string -%}
+                {{ string }} and <a href="{{ links[-1] }}">{{ names[-1] }}</a>
+              {%- endcapture -%}
+            {% endif %}
+            <!-- add period -->
+            {%- capture string -%}
+              {{ string | append: "."}}
+            {%- endcapture -%}
+          {% endif %}
+
+          {% if page.journalinfo %}
+            {% assign journal = page.journalinfo %}
+          {% else %}
+            {% assign journal = "" %}
+          {% endif %}
+            
+          <p>{{ string }} Draft available <a href="{{ page.draftlink }}">here</a>. {{ journal }}</p>
+
+        {% elsif page.collection == 'teaching' %}
+          <!-- <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p> -->
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}

@@ -8,16 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-My name is **Keita Allen**, and I am a second-year Ph.D. student in mathematics at MIT. Previously, I was an undergraduate at MIT.
+My name is **Keita Allen**, and I am a third-year Ph.D. student in mathematics at MIT. Previously, I was an undergraduate at MIT.
 
-I am broadly interested in **areas where algebra and geometry/topology intersect,** with a particular interest in and around **algebraic topology/homotopy theory**. 
+I am studying **algebraic topology/homotopy theory**, and broadly interested in areas where algebra and geometry intersect. I am advised by [**Jeremy Hahn**](https://web.mit.edu/~jhahn01/www/). Here is my [CV](https://ktallen.github.io/files/cv.pdf). 
 
-Here is my [**CV**](https://ktallen.github.io/files/cv.pdf). For some more information, please see:
-- the [**Research**](https://ktallen.github.io/projects/) tab for some of the math I have thought about,
-- the [**Notes/Talks**](https://ktallen.github.io/notes/) tab for some more expository writing,
-- the [**Teaching**](https://ktallen.github.io/teaching/) tab for some teaching material I have made,
-- and the [**Contact, etc.**](https://ktallen.github.io/info/) tab for some information on myself, including how to reach me; my inbox is always open : )
-
+Papers
 ---
-### Upcoming travel.
-- [**Oberwolfach Arbeitsgemeinschaft: Algebraic K-theory and the Telescope Conjecture**](https://www.mfo.de/occasion/2442/www_view): October 13th -- October 18th, 2024.
+For more details, please see the [**Research**](https://ktallen.github.io/projects/) tab.
+
+1. [*Synthetic equivariant spectra for finite abelian groups and motivic homotopy theory*](https://arxiv.org/abs/2510.20197), with [**Lucas Piessevaux**](https://lucas-piessevaux.github.io). 
+
+For other information...
+---
+Please see the [**Notes/Talks**](https://ktallen.github.io/notes/) tab for some more expository writing, and the [**Teaching/Outreach**](https://ktallen.github.io/teaching/) tab for some information on service that I have been involved in, in addition to some teaching material I made. 

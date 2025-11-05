@@ -1,11 +1,11 @@
 ---
-title: "Complexity of computing homotopy groups of spheres."
+title: "Complexity of computing homotopy groups of spheres"
 collection: undergradprojects
-type: "Summer research"
+# type: "Summer research"
 permalink: /projects/uropplus
-venue: "MIT Math Dept."
+# venue: "MIT Math Dept."
 date: 2021-06-15
-location: "Cambridge, MA"
+# location: "Cambridge, MA"
 ---
 
 I studied a 1957 algorithm of E.H. Brown, which can be used to determine the homotopy groups of any space obtained as the realization of a finite simplicial set.
